@@ -1,5 +1,7 @@
 # Source2Content Agent
 
+[![tests](https://github.com/Starry-49/source2content-agent/actions/workflows/tests.yml/badge.svg)](https://github.com/Starry-49/source2content-agent/actions/workflows/tests.yml)
+
 Source2Content Agent is a small portfolio-grade service for turning source materials into traceable content artifacts: a content brief, a slide plan, an article draft, and a source registry.
 
 The project grows out of my existing knowledge-production tools:
@@ -136,4 +138,3 @@ This repository supports the following concrete claims:
 - Used LangGraph to orchestrate source registration, retrieval, planning, drafting, validation, and fallback nodes.
 - Implemented hybrid retrieval with BM25, TF-IDF, RapidFuzz, and optional sentence-transformers semantic embeddings.
 - Packaged the service with Docker and covered retrieval, graph, API, and validation behavior with pytest.
-
