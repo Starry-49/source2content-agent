@@ -1,0 +1,14 @@
+services:
+  source2content:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      SOURCE2CONTENT_WORKSPACE: /app/.source2content
+      SOURCE2CONTENT_SEMANTIC_MODEL: disabled
+    volumes:
+      - source2content-workspace:/app/.source2content
+
+volumes:
+  source2content-workspace:
+

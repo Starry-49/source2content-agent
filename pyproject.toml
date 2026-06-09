@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "source2content-agent"
+version = "0.1.0"
+description = "Source-grounded content workflow service with FastAPI, LangGraph, hybrid retrieval, and Docker."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Starry-49" }]
+dependencies = [
+  "fastapi>=0.115.0",
+  "uvicorn>=0.30.0",
+  "pydantic>=2.7.0",
+  "langgraph>=0.2.70",
+  "rank-bm25>=0.2.2",
+  "rapidfuzz>=3.9.0",
+  "scikit-learn>=1.4.0",
+]
+
+[project.optional-dependencies]
+semantic = ["sentence-transformers>=3.0.0"]
+dev = ["httpx>=0.27.0", "pytest>=8.2.0"]
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+

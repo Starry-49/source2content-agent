@@ -1,0 +1,39 @@
+[
+  {
+    "slide": 1,
+    "title": "Why this content exists",
+    "purpose": "Set objective, audience, and source boundary.",
+    "source_ids": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "slide": 2,
+    "title": "Knowledge base and retrieval flow",
+    "purpose": "Explain how source material is registered, indexed, and retrieved.",
+    "source_ids": [
+      "S2",
+      "S3",
+      "S1"
+    ]
+  },
+  {
+    "slide": 3,
+    "title": "Content generation plan",
+    "purpose": "Turn source evidence into a draft structure with reusable sections.",
+    "source_ids": [
+      "S2",
+      "S3"
+    ]
+  },
+  {
+    "slide": 4,
+    "title": "Validation and fallback",
+    "purpose": "Show citation checks and boundary handling before handoff.",
+    "source_ids": [
+      "S3",
+      "S1"
+    ]
+  }
+]

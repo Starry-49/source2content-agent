@@ -1,0 +1,35 @@
+[
+  {
+    "source_id": "S1",
+    "title": "Codexy Ok Note",
+    "kind": "document",
+    "char_count": 625,
+    "digest": "43281d65af1d",
+    "metadata": {
+      "path": "data/sample_sources/codexy_ok_note.md",
+      "sample": true
+    }
+  },
+  {
+    "source_id": "S2",
+    "title": "Image2Slides Note",
+    "kind": "document",
+    "char_count": 764,
+    "digest": "8e874f95074c",
+    "metadata": {
+      "path": "data/sample_sources/image2slides_note.md",
+      "sample": true
+    }
+  },
+  {
+    "source_id": "S3",
+    "title": "Synquest Note",
+    "kind": "document",
+    "char_count": 825,
+    "digest": "f720b8acfbbb",
+    "metadata": {
+      "path": "data/sample_sources/synquest_note.md",
+      "sample": true
+    }
+  }
+]
